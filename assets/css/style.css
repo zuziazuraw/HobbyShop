@@ -1,0 +1,34 @@
+body {
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1 {
+    margin: 80px;
+}
+
+/* navigation */
+
+/* nav {
+    font-family: cubano-sharp,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+} */
+
+
+.navbar {
+    background: rgb(134, 168, 38);
+}
+
+
+/* jumbotron */
+
+.jumbotron {
+    background-image:url('../images/heroimage.jpg');
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camping Shop</title>
     
-  <!--Bootstrap -->  
+<!--Bootstrap -->  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+<!-- CSS link-->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<!--Font -->
+<link rel="stylesheet" href="https://use.typekit.net/mbm1ctn.css">
+
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHV5KETR9H"></script>
@@ -38,32 +46,25 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--Navigation-->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-collapse">
+
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="assets/images/tentlogo.png" class="logo" style="width: 100px;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#gettingstarted.html">Benefits of Camping</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#types.html">Best Campgrounds</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" href="#gear.html">What to Bring</a>
               </li>
             </ul>
           </div>
@@ -71,10 +72,91 @@
       </nav>
 
 
+<!--Jumbotron Hero Image-->
+<div class="jumbotron m-3">
+    <!-- <img src="assets/images/heroimage.jpg"> -->
+  </div>
 
 
+<!--Cards
+<div class="row">
+<div class="card ml-5 mr-3 mt-5" style="width: 18rem;">
+    <img src="assets/images/Benefits.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Benefits of Camping</h5>
+      <p class="card-text">Camping has a great number of benefits for everyone to enjoy while spending time in the great outdoors.</p>
+      <a href="#" class="btn btn-primary">Explore</a>
+    </div>
+  </div>
+  <div class="card mr-3 mt-5" style="width: 18rem;">
+    <img src="assets/images/bestcamp.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Best Campgrounds</h5>
+      <p class="card-text">If you want a good camping expereince, you must go to these campgrounds!</p>
+      <a href="#" class="btn btn-primary">Explore</a>
+    </div>
+  </div>
+  <div class="card mt-5" style="width: 18rem;">
+    <img src="assets/images/gear.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">What to Bring</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-info">Explore</a>
+    </div>
+  </div>
+</div>
+--->
+
+<!--Cards-->
+
+<h1 class="text-center ">Things You Should Know</h1>
 
 
+<div class="card-deck">
+    
+    <div class="card">
+      <img src="assets/images/benefit.jpg" class="card-img-top" alt="people">
+      <div class="card-body">
+        <h5 class="card-title">Benefits of Camping</h5>
+        <p class="card-text">Camping has a great number of benefits for everyone to enjoy while spending time in the great outdoors.</p>
+        <a href="#benefits.html" class="btn btn-primary">Explore</a>
+        
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/images/location.jpg" class="card-img-top" alt="location">
+      <div class="card-body">
+        <h5 class="card-title">Best Campgrounds</h5>
+        <p class="card-text">If you want a good camping expereince, you must go to these campgrounds!</p>
+        <a href="#" class="btn btn-primary">Explore</a>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/images/gearimg.jpg" class="card-img-top" alt="gear">
+      <div class="card-body">
+        <h5 class="card-title">What to Bring</h5>
+        <p class="card-text">Having the necessary supplies and equipment can make a difference in your overall enjoyment and experience. </p>
+        <a href="#" class="btn btn-primary">Explore</a>
+    
+      </div>
+    </div>
+  </div>
+
+<!--footer-->
+
+<footer class="bg-light text-center text-lg-start mt-5">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color:  rgb(134, 168, 38);">
+     
+      <a class="text-dark" href="#">LETS GO CAMPING!</a>
+      © 2021 Copyright
+    </div>
+    <!-- Copyright -->
+  </footer>
  
 
 <!-- Java-->
