@@ -22,7 +22,7 @@ h3 {
 
 #heroImg {
     background-image:url('../images/heroimage.jpg');
-    height:500px;
+    height:350px;
     background-repeat: no-repeat;
     background-size: cover;
 }
