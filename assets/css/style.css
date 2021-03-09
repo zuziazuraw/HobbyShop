@@ -13,20 +13,12 @@ h3 {
 
 /* navigation */
 
-/* nav {
-    font-family: cubano-sharp,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-} */
-
-
 .navbar {
     background: rgb(134, 168, 38) !important;
 }
 
 
-/* jumbotron */
+/*Jumbotron */
 
 #heroImg {
     background-image:url('../images/heroimage.jpg');
@@ -35,27 +27,30 @@ h3 {
     background-size: cover;
 }
 
-
-/*Benefits*/
-
 #benefits {
     background-image:url('../images/nightsky.jpg');
     height:300px;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-
-/*Gear */
 
 #gear {
     background-image:url('../images/gearhero.jpg');
     height:300px;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
+#locationHero {
+    background-image:url('../images/locationpic.jpg');
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Carousel*/
 
 #carouselExampleIndicators {
     padding: 50px;
 }
+
